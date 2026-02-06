@@ -9,10 +9,7 @@ class Blah < Formula
       url "https://github.com/planetaryescape/blah.chat/releases/download/cli-v#{version}/blah-cli-darwin-arm64.tar.gz"
       sha256 "PLACEHOLDER_DARWIN_ARM64"
     end
-    on_intel do
-      url "https://github.com/planetaryescape/blah.chat/releases/download/cli-v#{version}/blah-cli-darwin-x64.tar.gz"
-      sha256 "PLACEHOLDER_DARWIN_X64"
-    end
+    # Intel Mac (darwin-x64) temporarily unsupported - requires paid CI runner
   end
 
   on_linux do
