@@ -1,24 +1,24 @@
 class BlahCode < Formula
   desc "Local-first coding agent CLI for blah.chat"
   homepage "https://github.com/planetaryescape/blah-code"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/planetaryescape/blah-code/releases/download/cli-v#{version}/blah-code-cli-darwin-arm64.tar.gz"
-      sha256 "8c0b98b598b88e82adf4c9b4ec7eafe035f2ed93b5dae0e140e083ba90e8cd47"
+      sha256 "2d89be21e6cca1bf668067c08cd1bd33b01de7550c0cb10e7324644bafc314ef"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/planetaryescape/blah-code/releases/download/cli-v#{version}/blah-code-cli-linux-arm64.tar.gz"
-      sha256 "a5ff13054c31d5f2f2ee293dbba5a44d814b7a9c45b9de133d45700d36f5af40"
+      sha256 "aa744ae9be363a064f1652f111d635a2f6df1c0dc8f2b7dd944fc235ad05b064"
     end
     on_intel do
       url "https://github.com/planetaryescape/blah-code/releases/download/cli-v#{version}/blah-code-cli-linux-x64.tar.gz"
-      sha256 "89d210028e237b1d3abf941f1fece4cd86fa528da3293be8ba5b5b8477d9b7eb"
+      sha256 "c10eb686a25595a1996d7c42411d1ec24094c1a7b5959d13ff074b16dddf14db"
     end
   end
 
